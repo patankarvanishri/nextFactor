@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 7.185 sec <<< FAILURE!
+DeleteRequestTest(com.sdet.labs.Restful_Web_Services_Test)  Time elapsed: 2.019 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [403]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.sdet.labs.Restful_Web_Services_Test.DeleteRequestTest(Restful_Web_Services_Test.java:16)
+
+PatchRequestTest(com.sdet.labs.Restful_Web_Services_Test)  Time elapsed: 0.514 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [403]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.sdet.labs.Restful_Web_Services_Test.PatchRequestTest(Restful_Web_Services_Test.java:26)
+
+PostRequestTest(com.sdet.labs.Restful_Web_Services_Test)  Time elapsed: 1.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected [201] but found [403]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.sdet.labs.Restful_Web_Services_Test.PostRequestTest(Restful_Web_Services_Test.java:31)
+
+PutRequestTest(com.sdet.labs.Restful_Web_Services_Test)  Time elapsed: 0.907 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [403]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.sdet.labs.Restful_Web_Services_Test.PutRequestTest(Restful_Web_Services_Test.java:36)
+
